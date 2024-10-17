@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a page demonstrating Oscar Welton-Rosie's HTML and CSS skills.">
+  <title>Oscar's Code</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #010500;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    form {
+      background-color: #ecf0f1;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      margin-bottom: 10px;
+      width: 100%;
+      border: 1px solid #bdc3c7;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 10px;
+      background-color: #34495e;
+      color: white;
+      text-align: center;
+    }
+    blockquote {
+      font-style: italic;
+      background: #f9f9f9;
+      padding: 10px 20px;
+      margin: 20px 0;
+      border-left: 5px solid #3498db;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Oscar's Code</h1>
+    <h2>This is a page demonstrating Oscar Welton-Rosie's HTML and CSS skills</h2>
+  </header>
+  <section>
+    <blockquote>"To hell with it, I'm not learning JavaScript" - Oscar Welton-Rosie.</blockquote>
+      </section>
+  <section>
+    <h2>About this page</h2>
+    <p>This page was written in HTML and CSS by Oscar Welton-Rosie, a nerd who likes to think that he’s good at coding.</p>
+    <p>If you want to learn or improve your coding knowledge, click <a href="https://www.w3schools.com/">here</a>.</p>
+  </section>
+  <section>
+    <h2>Below is a (not) amazing form I coded</h2>
+ <form action="/submit_form" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="Eg; John Doe"><br><br>
+  <label for="email">Your Email:</label>
+  <input type="email" id="email" name="email" placeholder="Eg; name@example.com"><br><br>
+  <label for="message">Your Message:</label><br>
+  <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..."></textarea><br><br>
+  <input type="submit" value="Submit">
+</form>
+ <p><strong>Please note that the above form is not functional!</strong></p>
+  </section>
+  <section>
+    <p>If you want to contact me about this code, contact me<a href="mailto:oweltonrosie@gmail.com?subject=Oscar's code"> here</a>.</p>
+  </section>
+  <p>Adíos</p>
+  <footer>
+    <p>Oscar Welton-Rosie's code ( ͡° ͜ʖ ͡°)</p>
+  </footer>
+</body>
+</HTML>
