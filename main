@@ -32,8 +32,12 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     
-    h1, h2 {
-      color: #010500;
+    header {
+      text-align: center;
+    }
+    
+    h1, h2, p {
+      text-align: center;
     }
     
     article, aside {
@@ -162,7 +166,8 @@
       <p><strong>Please note that the above form is not functional!</strong></p>
     </aside>
   </main>
-  <h2>For those wanting to insect the code behind this page, view its GitHub Repository <a href="https://github.com/OWelton-Rosie/My-bad-code"> here</a>.</h2>  <footer>
+  <h2>For those wanting to inspect the code behind this page, view its GitHub Repository <a href="https://github.com/OWelton-Rosie/My-bad-code"> here</a>.</h2>  
+  <footer>
     <p><a href="#top">Back to Top</a></p>
     <p>( ͡° ͜ʖ ͡°) | Oscar Welton-Rosie's Code.</p>
   </footer>
