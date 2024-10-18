@@ -21,6 +21,7 @@
       margin: 0;
       padding: 20px;
       color: var(--secondary-color);
+      text-align: center;
     }
     
     main {
@@ -30,18 +31,6 @@
       background-color: #ffffff;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    
-    header {
-      text-align: center;
-    }
-    
-    h1, h2, p {
-      text-align: center;
-    }
-    
-    .center-button {
-      text-align: center;
     }
     
     article, aside {
@@ -130,7 +119,7 @@
 </head>
 <body>
   <header>
-    <p>Version: 1.0.6</p>
+    <p>Version: 1.0.7</p>
     <h1 id="top">Oscar's Code</h1>
     <h2>This is a page demonstrating Oscar Welton-Rosie's coding skills</h2>
   </header>
@@ -145,16 +134,12 @@
       <p>This page was written in HTML and CSS by Oscar Welton-Rosie, a nerd who likes to think that he’s good at coding.</p>
       <p>If you want to learn or improve your coding knowledge, click <a href="https://www.w3schools.com/" aria-label="W3 Schools link">here</a>.</p>
     </article>
-    <br>
-    <h2>Click the button below to display the date and time!</h2>
-    <div class="center-button">
-      <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
-        Click me to display the Date and Time
-      </button>
-    </div>
-    <p id="demo"></p>
     
-    <br>
+    <h2>Click the button below to display the date and time!</h2>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+      Click me to display the Date and Time
+    </button>
+    <p id="demo"></p>
     
     <aside>
       <h2>Below is a (not) amazing form I coded</h2>
@@ -173,8 +158,13 @@
       </form>
       <p><strong>Please note that the above form is not functional!</strong></p>
     </aside>
+    
+    <article>
+      <h2>GitHub Repository</h2>
+      <p>If you want to inspect this page's code, its GitHub Repository can be viewed<a href="https://github.com/OWelton-Rosie/My-bad-code"> here</a>.</p>
+    </article>  
   </main>
-  <h2>For those wanting to inspect the code behind this page, view its GitHub Repository <a href="https://github.com/OWelton-Rosie/My-bad-code"> here</a>.</h2>  
+  
   <footer>
     <p><a href="#top">Back to Top</a></p>
     <p>( ͡° ͜ʖ ͡°) | Oscar Welton-Rosie's Code.</p>
